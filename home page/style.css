@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    padding: 0;
+}
+h1, h2, h3 {
+    margin: 8px 0;
+}
+
+.heading{
+    background: url("dam.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 80px 30px;
+    color: wheat;
+    text-shadow: 0 0 10px black;
+}
+.heading:hover{
+    background: url("farms.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about {
+    padding: 32px;
+    background-color: #dae3e5;
+    text-align: center;
+}
+.touristattractions h2{
+    padding: 32px;
+    text-align: center;
+}
+.places {
+    display: flex;
+    justify-content: center;
+    gap: 20;
+    flex-wrap: wrap;
+}
+.place {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px 20px;
+ }
+.photo{
+    width: 250px; 
+    border-radius: 500px;  
+}
